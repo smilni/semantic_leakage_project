@@ -2,7 +2,7 @@
 
 ## Overview
 
-The dataset builds on previous work by Gonen et al. (2024) and expands the study of semantic leakage in the following ways:
+[The dataset](https://github.com/smilni/semantic_leakage_project/blob/main/data/semantic_leakage_colors.xlsx) builds on previous work by Gonen et al. (2024) and expands the study of semantic leakage in the following ways:
 
 1. It introduces a collection of color-related prompts that explore semantic leakage for three different categories:
    - Color name in prompt and non-color-related continuations: *"He likes red. He works as a... **firefighter**"*
@@ -30,6 +30,6 @@ The dataset is presented in an Excel file. It has the following features:
 
 ## Generations Datasets
 
-In generation_results/color_prompts folder, you may find the generations produced by Qwen2.5-0.5B-Instruct, Qwen2.5-1.5B-Instruct, Qwen2.5-3B-Instruct, and Qwen2.5-7B-Instruct-GPTQ-Int4. Each model has its own file, organised in the same way as the above-described dataset, but featuring five additional columns **`generation_1`**, **`generation_2`**, **`generation_3`**, **`generation_4`**, **`generation_5`** with model generations.
+In [generation_results/color_prompts](https://github.com/smilni/semantic_leakage_project/tree/main/data/generation_results/color_prompts) folder, you may find the generations produced by Qwen2.5-0.5B-Instruct, Qwen2.5-1.5B-Instruct, Qwen2.5-3B-Instruct, and Qwen2.5-7B-Instruct-GPTQ-Int4. Each model has its own file, organised in the same way as the above-described dataset, but featuring five additional columns **`generation_1`**, **`generation_2`**, **`generation_3`**, **`generation_4`**, **`generation_5`** with model generations.
 
-Additionally, you may refer to generation_results/initial_prompts to examine Qwen2.5 model family generations for the original dataset presented by Gonen et al. (2024).
+Additionally, you may refer to [generation_results/initial_prompts](https://github.com/smilni/semantic_leakage_project/tree/main/data/generation_results/initial_prompts) to examine Qwen2.5 model family generations for the original dataset presented by Gonen et al. (2024).

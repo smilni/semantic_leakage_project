@@ -3,15 +3,15 @@
 ## Overview
 This is the repository for "Scaling Down Semantic Leakage: Investigating Associative Bias in Smaller Language Models" project, completed by me as a part Understanding LLMs course at the University of Tübingen .
 
-The project investigates **semantic leakage** in language models, particularly focusing on how color-related prompts influence generated outputs. Semantic leakage occurs when unintended associations within a language model lead to contextually unexpected or inappropriate outputs. For instance, prompts like *"The dinner was served on pink plates. Today’s dish was..."* might result in unexpected completions such as *"**rose petal soup.**"*
+The project investigates the concept of semantic leakage in Qwen2.5 language models, particularly focusing on how color-related prompts influence generated outputs. Semantic leakage occurs when unintended associations within a language model lead to contextually unexpected or inappropriate outputs. For instance, prompts like *"The dinner was served on pink plates. Today’s dish was..."* might result in unexpected completions such as *"**rose petal soup.**"*
 
 ## Repository Structure
 
-The repository consists of two folders:
+The repository consists of two folders. Please note that each folder features its own README file – you might want to take a look at them.
 
 ### 1. **Color-related Leakage-Provoking Prompts Dataset and Generations Datasets**
 
-This folder contains datasets for color-related prompts and the model generations:
+[This folder](https://github.com/smilni/semantic_leakage_project/tree/main/notebooks) contains datasets for color-related prompts and the model generations:
 
 - Color-related Prompt Dataset: A carefully constructed dataset expanding on the work of Gonen et al. (2024), including 720 test prompts across three categories and 40 control prompts. The prompts are designed to evaluate semantic leakage in various color-related contexts.
 
@@ -19,7 +19,7 @@ This folder contains datasets for color-related prompts and the model generation
 
 ### 2. **Notebooks for Obtaining Model Output and Leakage Analysis**
 
-This folder contains Jupyter notebooks designed for generating and analyzing language model responses to color-related prompts, with a focus on semantic leakage:
+[This folder](https://github.com/smilni/semantic_leakage_project/tree/main/data) contains Jupyter notebooks designed for generating and analyzing language model responses to color-related prompts, with a focus on semantic leakage:
 
 - Prompting Qwen2.5 Models: A notebook to configure and prompt transformer-based language models (Qwen2.5 family) using the color-related dataset. The notebook generates responses, resulting in datasets with multiple outputs for each prompt.
 
