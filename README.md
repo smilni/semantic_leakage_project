@@ -21,6 +21,10 @@ The repository consists of two folders. Please note that each folder features it
 
 [This folder](https://github.com/smilni/semantic_leakage_project/tree/main/data) contains Jupyter notebooks designed for generating and analyzing language model responses to color-related prompts, with a focus on semantic leakage:
 
-- Prompting Qwen2.5 Models: A notebook to configure and prompt transformer-based language models (Qwen2.5 family) using the color-related dataset. The notebook generates responses, resulting in datasets with multiple outputs for each prompt.
+- Prompting Qwen2.5 models: A notebook to configure and prompt transformer-based language models (Qwen2.5 family) using the color-related dataset. The notebook generates responses, resulting in datasets with multiple outputs for each prompt.
 
-- Evaluating Mean Leak-Rate of the Models: This notebook calculates semantic leakage rates using similarity metrics such as BERTScore and SentenceBERT. The analysis produces a Mean Leak-Rate metric across different categories and models, enabling cross-comparison of semantic leakage behavior.
+- Evaluating Mean Leak-Rate of the models: This notebook calculates semantic leakage rates using similarity metrics such as BERTScore and SentenceBERT. The notebook produces Mean Leak-Rates across different categories and models, allowing for a cross-comparison of semantic leakage behavior.
+
+## References
+
+1. Gonen, H., Blevins, T., Liu, A., Zettlemoyer, L., & Smith, N. A. (2024). [Does Liking Yellow Imply Driving a School Bus? Semantic Leakage in Language Models](https://arxiv.org/abs/2408.06518). *arXiv preprint arXiv:2408.06518*.

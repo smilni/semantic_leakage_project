@@ -33,3 +33,7 @@ The dataset is presented in an Excel file. It has the following features:
 In [generation_results/color_prompts](https://github.com/smilni/semantic_leakage_project/tree/main/data/generation_results/color_prompts) folder, you may find the generations produced by Qwen2.5-0.5B-Instruct, Qwen2.5-1.5B-Instruct, Qwen2.5-3B-Instruct, and Qwen2.5-7B-Instruct-GPTQ-Int4. Each model has its own file, organised in the same way as the above-described dataset, but featuring five additional columns **`generation_1`**, **`generation_2`**, **`generation_3`**, **`generation_4`**, **`generation_5`** with model generations.
 
 Additionally, you may refer to [generation_results/initial_prompts](https://github.com/smilni/semantic_leakage_project/tree/main/data/generation_results/initial_prompts) to examine Qwen2.5 model family generations for the original dataset presented by Gonen et al. (2024).
+
+## References
+
+1. Gonen, H., Blevins, T., Liu, A., Zettlemoyer, L., & Smith, N. A. (2024). [Does Liking Yellow Imply Driving a School Bus? Semantic Leakage in Language Models](https://arxiv.org/abs/2408.06518). *arXiv preprint arXiv:2408.06518*.
