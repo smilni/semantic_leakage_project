@@ -5,6 +5,8 @@ This is the repository for "Scaling Down Semantic Leakage: Investigating Associa
 
 The project investigates the concept of semantic leakage in Qwen2.5 language models, particularly focusing on how color-related prompts influence generated outputs. Semantic leakage occurs when unintended associations within a language model lead to contextually unexpected or inappropriate outputs. For instance, prompts like *"The dinner was served on pink plates. Today’s dish was..."* might result in unexpected completions such as *"**rose petal soup.**"*
 
+You may find the full text of the project paper [here](https://github.com/smilni/semantic_leakage_project/blob/main/semantic_leakage.pdf).
+
 ## Repository Structure
 
 The repository consists of two folders. Please note that each folder features its own README file – you might want to take a look at them.
